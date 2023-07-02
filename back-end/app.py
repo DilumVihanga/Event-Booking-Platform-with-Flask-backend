@@ -23,7 +23,7 @@ class Article(db.Model):
 
 @app.route('/get', methods=['GET'])
 def get_articles():
-    return jsonify({"Hello": "World"})
+    return jsonify({"Hello": "Keep Learning"})
 
 if __name__ == "__main__":
     app.run(debug=True)
